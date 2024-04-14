@@ -10,7 +10,7 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
     volumes:
-      - ~/.MySQLDBData/mysqlonly/mysql_cursos:/var/lib/mysql
+      - C:\Users\lucas\OneDrive\Documentos\Projetos Github\SQL-Learning-Project\BANCO DE DADOS:/var/lib/mysql
     ports:
      - 3306:3306
     eviroment:
